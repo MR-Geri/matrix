@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1e31c7-92fd-47d5-b733-1b5a5d9b21e9" name="Default Changelist" comment="" />
+    <list default="true" id="ec1e31c7-92fd-47d5-b733-1b5a5d9b21e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../PycharmProjects/matrix/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/matrix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/matrix/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/matrix/my_f1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/matrix/Image/my_f1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/matrix/my_f2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/matrix/Image/my_f2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/matrix/my_f3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/matrix/Image/my_f3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/matrix/my_f4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/matrix/Image/my_f4.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../PycharmProjects/matrix" />
+  </component>
   <component name="JupyterTrust" id="db525ead-cc76-4564-a771-0352340056ef" />
   <component name="ProjectId" id="1lt0QgaNiBsYOYYQMnYzpssWokf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -17,9 +30,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PycharmProjects/projectPygame" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\matrix\Image" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\PycharmProjects\matrix" />
     </key>
@@ -107,6 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608401065631</updated>
       <workItem from="1608401066991" duration="1697000" />
+      <workItem from="1608402998693" duration="181000" />
     </task>
     <servers />
   </component>
@@ -130,10 +153,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="587" y="334" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1608402751594" />
-    <state x="645" y="334" key="Github.ShareDialog" timestamp="1608402756992">
+    <state x="645" y="334" key="Github.ShareDialog" timestamp="1608403065473">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="645" y="334" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1608402756992" />
+    <state x="645" y="334" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1608403065473" />
+    <state x="544" y="53" key="Github.UntrackedFilesDialog" timestamp="1608403072189">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="544" y="53" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1608403072189" />
     <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1608402778313">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -150,10 +177,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608402778313" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608402753989">
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1608403116134">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1608402753989" />
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608403116134" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608403062363">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1608403062363" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/matrix$matrix_camera.coverage" NAME="matrix_camera Coverage Results" MODIFIED="1608401277033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../PycharmProjects/matrix" />
