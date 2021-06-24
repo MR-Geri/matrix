@@ -85,7 +85,7 @@ class MatrixVision:
         self.screen.blit(self.surface, (0, 0))
         if self.flag:
             self.flag = False
-            pg.image.save(self.surface, 'my_f.jpg')
+            pg.image.save(self.surface, 'my_1.jpg')
 
     def run(self):
         while True:
