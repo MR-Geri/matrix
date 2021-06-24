@@ -96,5 +96,5 @@ class MatrixVision:
 
 
 if __name__ == '__main__':
-    app = MatrixVision('1.jpeg')
+    app = MatrixVision('1.jpg')
     app.run()
