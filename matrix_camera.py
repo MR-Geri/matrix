@@ -78,7 +78,7 @@ class MatrixVision:
         self.matrix = Matrix(self)
 
         pygame.camera.init()
-        self.cam = pygame.camera.Camera(0, (1280, 720), 'RGB')
+        self.cam = pygame.camera.Camera(0)
         self.cam.start()
 
     def draw(self):

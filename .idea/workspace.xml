@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec1e31c7-92fd-47d5-b733-1b5a5d9b21e9" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/matrix/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/matrix/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/matrix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/matrix/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18d546b822cc0462eb261a06a247e4b354b86e22" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e2a0313e4f270cd9767219b5f265cfccfa866a0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matrix_camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/matrix_camera.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../PycharmProjects/matrix" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="db525ead-cc76-4564-a771-0352340056ef" />
   <component name="ProjectId" id="1lt0QgaNiBsYOYYQMnYzpssWokf" />
@@ -24,9 +29,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PycharmProjects/projectPygame" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projectPygame" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,12 +58,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../PycharmProjects/matrix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../PycharmProjects/matrix/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,12 +80,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../PycharmProjects/matrix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../PycharmProjects/matrix/matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,12 +102,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../PycharmProjects/matrix" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../PycharmProjects/matrix/matrix_camera.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matrix_camera.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,6 +133,7 @@
       <updated>1608401065631</updated>
       <workItem from="1608401066991" duration="1697000" />
       <workItem from="1608402998693" duration="344000" />
+      <workItem from="1624557083134" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1608405213652</created>
@@ -148,62 +155,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="540" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608401907135">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="540" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1608401907135" />
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608402591110">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1608402591110" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1608401520633">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1608401520633" />
-    <state x="587" y="334" key="Github.CreateGistDialog" timestamp="1608402751594">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="587" y="334" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1608402751594" />
-    <state x="645" y="334" key="Github.ShareDialog" timestamp="1608403065473">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="645" y="334" key="Github.ShareDialog/0.0.1536.864@0.0.1536.864" timestamp="1608403065473" />
-    <state x="544" y="53" key="Github.UntrackedFilesDialog" timestamp="1608403072189">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="544" y="53" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1608403072189" />
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom" timestamp="1608402778313">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1608402778313" />
-    <state width="1493" height="217" key="GridCell.Tab.0.center" timestamp="1608402778313">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1608402778313" />
-    <state width="1493" height="217" key="GridCell.Tab.0.left" timestamp="1608402778313">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1608402778313" />
-    <state width="1493" height="217" key="GridCell.Tab.0.right" timestamp="1608402778313">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="1493" height="217" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1608402778313" />
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1608405230737">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608405230737" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608403062363">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1608403062363" />
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/matrix$matrix_camera.coverage" NAME="matrix_camera Coverage Results" MODIFIED="1608401277033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../PycharmProjects/matrix" />
-    <SUITE FILE_PATH="coverage/matrix$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1608402474711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../PycharmProjects/matrix" />
+    <SUITE FILE_PATH="coverage/matrix$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1624557143258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/matrix$matrix_camera.coverage" NAME="matrix_camera Coverage Results" MODIFIED="1624557455627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

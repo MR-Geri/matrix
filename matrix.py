@@ -4,7 +4,7 @@ import pygame.camera
 
 
 class Matrix:
-    def __init__(self, app, font_size=8):
+    def __init__(self, path: str, app, font_size=8):
         self.app = app
         self.FONT_SIZE = font_size
         self.SIZE = self.ROWS, self.COLS = app.HEIGHT // font_size, app.WIDTH // font_size
@@ -16,7 +16,7 @@ class Matrix:
         self.cols_speed = np.random.randint(1, 1000, size=self.SIZE)
         self.prerendered_chars = self.get_prerendered_chars()
 
-        self.image = self.get_image('')
+        self.image = self.get_image(path)
 
     def get_frame(self):
         image = app.cam.get_image()
@@ -70,13 +70,13 @@ class Matrix:
 
 
 class MatrixVision:
-    def __init__(self):
+    def __init__(self, path: str):
         self.RES = self.WIDTH, self.HEIGHT = 1620, 2160
         pg.init()
         self.screen = pg.display.set_mode(self.RES)
         self.surface = pg.Surface(self.RES)
         self.clock = pg.time.Clock()
-        self.matrix = Matrix(self)
+        self.matrix = Matrix(path, self)
         self.flag = True
 
     def draw(self):
@@ -96,5 +96,5 @@ class MatrixVision:
 
 
 if __name__ == '__main__':
-    app = MatrixVision()
+    app = MatrixVision('1.jpeg')
     app.run()
