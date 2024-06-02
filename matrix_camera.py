@@ -9,7 +9,7 @@ class Matrix:
         self.FONT_SIZE = font_size
         self.SIZE = self.ROWS, self.COLS = app.HEIGHT // font_size, app.WIDTH // font_size
         self.katakana = np.array([chr(int('0x30a0', 16) + i) for i in range(96)] + ['' for i in range(10)])
-        self.font = pg.font.Font('MS Mincho.ttf', font_size, bold=True)
+        self.font = pg.font.Font('MS Mincho.ttf', font_size)
 
         self.matrix = np.random.choice(self.katakana, self.SIZE)
         self.char_intervals = np.random.randint(25, 50, size=self.SIZE)
@@ -78,7 +78,8 @@ class MatrixVision:
         self.matrix = Matrix(self)
 
         pygame.camera.init()
-        self.cam = pygame.camera.Camera(0)
+        camlist = pygame.camera.list_cameras()
+        self.cam = pygame.camera.Camera(camlist[0])
         self.cam.start()
 
     def draw(self):
